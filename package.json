@@ -1,0 +1,42 @@
+{
+    "name": "docpad-plugin-vash",
+    "version": "2.0.0",
+    "description": "DocPad plugin that renders vash templates to html",
+    "homepage": "https://github.com/harmony7/docpad-plugin-vash",
+    "license": {
+        "type": "MIT"
+    },
+    "keywords": [
+        "docpad",
+        "docpad-plugin",
+        "vash",
+        "templating",
+        "templates",
+        "render",
+        "rendering"
+    ],
+    "author": "Katsuyuki Ohmuro <harmony7@pex2.jp> (http://pex2.jp/)",
+    "maintainers": [
+        "Katsuyuki Ohmuro <harmony7@pex2.jp> (http://github.com/harmony7)"
+    ],
+    "contributors": [
+        "Katsuyuki Ohmuro <harmony7@pex2.jp> (http://github.com/harmony7)"
+    ],
+    "bugs": {
+        "url": "https://github.com/harmony7/docpad-plugin-vash/issues"
+    },
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/harmony7/docpad-plugin-vash.git"
+    },
+    "engines" : {
+        "node": ">=0.8"
+    },
+    "peerDependencies": {
+        "docpad": "6"
+    },
+    "dependencies": {
+        "vash": "0.7.x"
+    },
+    "main": "./src/vash.plugin.js"
+}
