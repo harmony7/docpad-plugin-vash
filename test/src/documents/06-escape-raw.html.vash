@@ -1,0 +1,5 @@
+@{
+    var x = "<br />";
+}
+<div>@x</div>
+<div>@html.raw(x)</div>

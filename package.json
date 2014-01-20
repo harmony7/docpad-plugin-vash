@@ -38,5 +38,11 @@
     "dependencies": {
         "vash": "0.7.x"
     },
-    "main": "./src/vash.plugin.js"
+    "main": "./out/vash.plugin.js",
+    "devDependencies": {
+        "coffee-script": "~1.6.3"
+    },
+    "scripts": {
+        "test": "node ./out/vash.test.js"
+    }
 }

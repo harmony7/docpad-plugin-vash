@@ -1,0 +1,4 @@
+---
+title: "Test Title"
+---
+<div>@document.title</div>

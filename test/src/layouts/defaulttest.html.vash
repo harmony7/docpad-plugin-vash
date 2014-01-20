@@ -1,0 +1,6 @@
+<div>
+    @site.title
+</div>
+<div>
+    @html.raw(content)
+</div>

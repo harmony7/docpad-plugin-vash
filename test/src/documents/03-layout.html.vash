@@ -1,0 +1,5 @@
+---
+title: "Test Title"
+layout: "defaulttest"
+---
+<div>@document.title</div>

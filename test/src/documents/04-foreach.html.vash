@@ -1,0 +1,5 @@
+<ul>
+    @sampleData.forEach(function(item) {
+    <li>(@item.id) @item.label</li>
+    })
+</ul>
